@@ -1,6 +1,6 @@
 A visual search engine(for go) based on Elasticsearch and Tensorflow
 
-![Visual search enging](Screenshot from 2017-11-28 09-55-37.png)
+![Visual search enging](https://raw.githubusercontent.com/yangboz/visual_search_go/master/Screenshot%20from%202017-11-28%2009-55-37.png)
 ## Requirements
  There are serveral python libraries you must to install before building the search engine.
 

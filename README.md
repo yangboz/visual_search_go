@@ -1,4 +1,4 @@
-![Computing-Thinking-Process](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/The_Computational_Thinking_Process.jpg/1024px-The_Computational_Thinking_Process.jpg)
+![Computing-Thinking](http://people.cs.vt.edu/~kafura/CS6604/Images/CT-Logo.jpg)
 
 A visual search engine(for go) based on Elasticsearch and Tensorflow
 

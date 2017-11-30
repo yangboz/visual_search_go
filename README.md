@@ -1,3 +1,5 @@
+![Computing-Thinking-Process](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/The_Computational_Thinking_Process.jpg/1024px-The_Computational_Thinking_Process.jpg)
+
 A visual search engine(for go) based on Elasticsearch and Tensorflow
 
 ![Visual search enging](https://raw.githubusercontent.com/yangboz/visual_search_go/master/Screenshot%20from%202017-11-28%2009-55-37.png)

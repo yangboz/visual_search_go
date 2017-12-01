@@ -98,3 +98,7 @@ export CFLAGS="-I /usr/local/lib/python3.5/dist-packages/numpy/core/include $CFL
 ```
 
 https://github.com/tensorflow/tensorflow/issues/251
+
+## References
+
+https://blog.algorithmia.com/deep-dive-into-object-detection-with-open-images-using-tensorflow/

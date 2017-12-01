@@ -1,6 +1,6 @@
 ![Computing-Thinking](http://people.cs.vt.edu/~kafura/CS6604/Images/CT-Logo.jpg)
 
-A visual search engine(for go) based on Elasticsearch and Tensorflow
+A visual search engine(for go) based on Elasticsearch, and A Tensorflow implementation of faster RCNN detection.
 
 ![Visual search enging](https://raw.githubusercontent.com/yangboz/visual_search_go/master/Screenshot%20from%202017-11-28%2009-55-37.png)
 ## Requirements

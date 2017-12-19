@@ -44,8 +44,8 @@ def load_model():
     """Load feature extractor model"""
 
     # create feature extractor
-    weight_path = './models/vgg16.weights'
-    model_path = './models/faster_rcnn_models/' \
+    weight_path = './models/imagenet_weights/vgg16.weights'
+    model_path = './models/faster_rcnn_models/coco_2014_train+coco_2014_valminusminival/default/' \
         'vgg16_faster_rcnn_iter_490000.ckpt'
 
     tfconfig = tf.ConfigProto(allow_soft_placement=True)

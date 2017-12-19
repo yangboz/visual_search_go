@@ -9,7 +9,10 @@ RUN apt-get install -y vim
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
-RUN make -f lib/Makefile
+
+RUN ls
+WORKDIR /app/lib
+RUN make
 #Preprocess SGFs
 ENTRYPOINT ["python]
 EXPOSE 5001

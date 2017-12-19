@@ -1,9 +1,11 @@
-A visual search engine(for go) based on Elasticsearch and Tensorflow
+![Computing-Thinking](http://people.cs.vt.edu/~kafura/CS6604/Images/CT-Logo.jpg)
+
+A visual search engine(for go) based on Elasticsearch, and A Tensorflow implementation of faster RCNN detection.
 
 ![Visual search enging](https://raw.githubusercontent.com/yangboz/visual_search_go/master/Screenshot%20from%202017-11-28%2009-55-37.png)
 ## Requirements
- There are serveral python libraries you must to install before building the search engine.
-
+ There are serveral python2.7 libraries you must to install before building the search engine.
+ 
  * `elasticsearch==5.2.0`
  * `Tensorflow==0.12.1`
  * `Flask`
@@ -25,7 +27,7 @@ cd visual_search/lib & make
 ```
 
 ## Setup
- * Setup Elasticsearch
+ * Setup Elasticsearch5
 
  The easiest way to setup is using [Docker](https://www.docker.com/) with [Docker Compose](https://docs.docker.com/compose/). With `docker-compose` everything you have to do is so simple:
 
@@ -56,7 +58,7 @@ cd visual_search/lib & make
  * Index preparation
 
  ```bash
- curl -XPUT http://localhost:9200/img_data -d @schema_es.json
+ curl -XPUT http://localhost:9200/im_data -d @schema_es.json
  ```
  * Setup faster r-cnn
 
@@ -96,3 +98,7 @@ export CFLAGS="-I /usr/local/lib/python3.5/dist-packages/numpy/core/include $CFL
 ```
 
 https://github.com/tensorflow/tensorflow/issues/251
+
+## References
+
+https://blog.algorithmia.com/deep-dive-into-object-detection-with-open-images-using-tensorflow/
